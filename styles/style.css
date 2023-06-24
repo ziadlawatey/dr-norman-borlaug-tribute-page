@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+
+  color: #333;
+
+  text-align: center;
+}
+
+.container {
+  margin: 1.85em 0.5em;
+  padding: 2.9em 10px 2em;
+
+  background-color: #eee;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 1.5em 0 1em;
+}
+
+main {
+  width: 100%;
+}
+
+#img-caption {
+  display: none;
+}
+
+#img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #fff;
+
+  border-radius: 5px;
+
+  padding: 10px;
+}
+
+#image {
+  display: block;
+
+  max-width: 100%;
+  height: auto;
+
+  margin: auto;
+}
+
+#img-div p {
+  padding-top: 10px;
+
+  font-size: 15px;
+
+  width: 100%;
+}
+
+main h3 {
+  margin: 3em 0;
+}
+
+.left {
+  max-width: 550px;
+
+  margin: 0 auto 50px auto;
+  padding: 0 20px;
+
+  text-align: left;
+}
+.tribute-about li {
+  margin-bottom: 2em;
+}
+
+.tribute-end p {
+  font-style: italic;
+  font-size: 1.3em;
+
+  margin-bottom: 1em;
+}
+
+.wikipedia {
+  font-weight: bold;
+
+  font-size: 1.2em;
+}
+
+.wikipedia a {
+  transition: all 0.3s;
+
+  color: blue;
+}
+
+a:hover {
+  color: black;
+
+  opacity: 50%;
+
+  text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  header h1 {
+    font-size: 25px;
+  }
+
+  #img-div p,
+  header p {
+    font-size: 15px;
+  }
+
+  .tribute-end p {
+    font-size: 1.2em;
+  }
+
+  .wikipedia {
+    width: 90%;
+
+    font-size: 1.1em;
+
+    margin: auto;
+  }
+}
